@@ -13,7 +13,8 @@ App Services is Apigee’s hosted version of the open-source technology “Userg
 	controllers/home_controller.rb => creating a usergrid object and saving it
 	Gemfile => Gem configuration
 
-3. Then you'll need to start your app with the following console command and navigate to http://0.0.0.0:3000
+3. Then you'll need to start your app with the following console command and navigate to http://0.0.0.0:3000 in your 
+   browser.
 
 	rails s
 
