@@ -1,0 +1,27 @@
+#This is the configuration required to use the usergrid_ironhorse gem in rails
+#We need to set the endpoint for which we'll be creating objects against
+#The application_url property is formatted like so https://{usergrid endpoint}/{org-name}/{app-name}
+#	usergrid endpoint => either api.usergrid.com or your custom version of usergrid
+#	org-name => this is your apigee.com username!
+#	app-name => this is the name of your app. We created the sandbox app for you. It's open by default
+#				but don't worry apps you create won't be!
+#The auth_token property is the token required by usergrid to make requests against the API.
+#It can be found on the portal. For now we don't need it.
+#The require_login property should be set to true if you'd like users to be authenticated with your
+#service to use the app.
+
+
+development:
+  application_url: https://api.usergrid.com/YOUR APIGEE.COM USERNAME/sandbox
+  auth_token: 
+  require_login: false
+
+test:
+  application_url: https://api.usergrid.com/YOUR APIGEE.COM USERNAME/sandbox
+  auth_token: 
+  require_login: false
+
+production:
+  application_url: https://api.usergrid.com/YOUR APIGEE.COM USERNAME/sandbox
+  auth_token: 
+  require_login: false

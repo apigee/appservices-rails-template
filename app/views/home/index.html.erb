@@ -1,0 +1,8 @@
+<% if @error %>
+	<p>Could not create the book. Did you enter your orgName (username) correctly on line 15 of index.js?</p>
+<% else %>
+	<p>Success! Here is the object we stored;</p>
+	<p>notice the timestamps and unique id we created for you:</p>
+	<p><%= @book.to_json %></p>
+<% end %>
+
