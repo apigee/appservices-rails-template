@@ -12,16 +12,16 @@
 
 
 development:
-  application_url: https://api.usergrid.com/YOUR APIGEE.COM USERNAME/sandbox
+  application_url: https://api.usergrid.com/{YOUR APIGEE.COM USERNAME}/sandbox
   auth_token: 
   require_login: false
 
 test:
-  application_url: https://api.usergrid.com/YOUR APIGEE.COM USERNAME/sandbox
+  application_url: https://api.usergrid.com/{YOUR APIGEE.COM USERNAME}/sandbox
   auth_token: 
   require_login: false
 
 production:
-  application_url: https://api.usergrid.com/YOUR APIGEE.COM USERNAME/sandbox
+  application_url: https://api.usergrid.com/{YOUR APIGEE.COM USERNAME}/sandbox
   auth_token: 
   require_login: false
